@@ -1,0 +1,21 @@
+{
+  "name": "multi-db-mongodb",
+  "version": "0.0.0",
+  "description": "The Library which adds multi tenancy capability to mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "multi-db"
+  ],
+  "author": "Laksman.S",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.7.8"
+  },
+  "peerDependencies": {
+    "mongoose": "^5.7.8"
+  }
+}
