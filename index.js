@@ -30,6 +30,7 @@ MultiDBMongo.prototype.getMTModel = function (schemaObj) {
     return tenantDB.model(
       schemaObj.modelName ? schemaObj.modelName : schemaObj.name,
       schemaObj.schema,
+      schemaObj.collectionName ? schemaObj.collectionName : schemaObj.name
     );
   }
 };
