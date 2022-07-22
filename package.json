@@ -1,6 +1,6 @@
 {
   "name": "multi-db-mongodb",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "The Library which adds multi tenancy capability to mongoose.",
   "main": "index.js",
   "scripts": {
