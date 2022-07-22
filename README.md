@@ -26,6 +26,7 @@ User = {
         }
     ),
     name: "users",
+    collectionName: "user" // Optional if collection name is not plural.
     isGlobal: false //attribute to tell if the model is in global DB across tenants or a tenant specific DB 
 };
 module.exports = function () {
